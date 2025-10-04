@@ -1,0 +1,11 @@
+:root{
+  --bg-0:#0B0B0F; --bg-1:#151720; --bg-2:#1F2230;
+  --text:#E9ECF5; --text-muted:#A8B0C2; --border:#2B3142;
+  --primary:#6E4AE2; --primary-deep:#3C2C78;
+  --accent:#00F5A0; --accent-deep:#00C9A7;
+  --info:#00D8FF; --success:#27D17F; --warning:#FFC857; --danger:#FF5C7C;
+
+  --shadow-skin1:0 1px 2px rgba(0,0,0,.25);
+  --shadow-skin2:0 8px 24px rgba(0,0,0,.35);
+  --shadow-glowAccent:0 0 0 6px rgba(0,245,160,.18);
+}

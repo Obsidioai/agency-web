@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "obsidio | KI-Dienste fuer operative Teams",
+    "description": "Ihr Partner, um Automatisierungen ganzheitlich zu entdecken, zu entwerfen und in Ihren bestehenden Stacks auszurollen."
+  },
+  "servicesHero": {
+    "eyebrow": "KI-Transformation ohne Ratespiel",
+    "title": "Operative KI aus Wien, die wirklich liefert",
+    "subtitle": "Gemeinsam Automationen, Chatbots, Dashboards und Lead-Systeme bauen. Kleine, sichere Releases. EU-Hosting, DSGVO-bewusst. Messbare Ergebnisse f\u00fcr DACH-KMU.",
+    "bgSrc": "/images/michael-niessl-nuvaRAeaMdc-unsplash.jpg",
+    "bgAlt": "Nachtpanorama der Wiener Skyline mit beleuchteten Hochhaeusern"
+  },
+  "servicesIcons": {
+    "title": "Wo wir Hebel schaffen",
+    "subtitle": "Von der Entdeckung bis zum Rollout decken wir den gesamten Lebenszyklus ab",
+    "items": [
+      {
+        "title": "SaaS-Entwicklung & Implementierung",
+        "desc": "Leichtgewichtige, passgenaue Tools - nahtlos integriert in Ihre bestehende Umgebung (Microsoft 365, Google Workspace, HubSpot, Shopify) inkl. sauberer Uebergabe und Dokumentation.",
+        "icon": "saas"
+      },
+      {
+        "title": "KI-Beratung fuer KMU",
+        "desc": "Herstellerneutrale Einschaetzung, klare ROI-Prioritaeten und ein umsetzbarer 90-Tage-Fahrplan - ohne Hype, mit konkreten naechsten Schritten.",
+        "icon": "ops"
+      },
+      {
+        "title": "Automatisierung & Workflow-Design",
+        "desc": "Wir ersetzen repetitive Aufgaben durch robuste Automationen (n8n/Make/Zapier + Code) mit Protokollen, Retries und Benachrichtigungen.",
+        "icon": "automation"
+      },
+      {
+        "title": "Virtueller Helpdesk & Chatbots",
+        "desc": "Natuerlich klingende Assistenten fuer Support, FAQs und Lead-Erfassung - angebunden an Ihre Daten, DSGVO-bewusst und auswertbar.",
+        "icon": "lead"
+      },
+      {
+        "title": "KI-Potenzialanalyse vor Ort",
+        "desc": "Ein Tag in Ihrem Betrieb: reale Ablaeufe aufnehmen, Chancen identifizieren, priorisierte Roadmap erstellen - mit positionenweiser Preisuebersicht pro Loesung.",
+        "icon": "roi"
+      },
+      {
+        "title": "Branchen-Dashboards & Lead-Systeme",
+        "desc": "Individuelle Dashboards und Lead-Prozesse fuer z. B. Immobilien- und Versicherungsbetriebe: einheitliche KPIs, smartes Scoring und automatisierte Folgeaktionen.",
+        "icon": "branding"
+      }
+    ]
+  },
+  "caseStudy": {
+    "sectionTitle": "Referenzprojekt",
+    "eyebrow": "E-Commerce (Moebelhandel)",
+    "title": "400% hoehere Conversion-Rate mit KI-gestuetztem Lead-Scoring",
+    "problem": "Das Vertriebsteam der MoebelKlar GmbH verlor 80% seiner Zeit an unverbindliche Leads, weil Excel-Listen manuell abgearbeitet wurden.",
+    "solution": "Bereinigte 12 Monate Lead-Historie, fuehrte Echtzeit-Scoring ueber 15 Signale ein und versorgte nur Leads mit Score ueber 80 mit personalisierten Vertriebs-Playbooks.",
+    "result": "Conversion-Rate stieg von 2,5% auf 10%, qualifizierte Leads +300% und 7 Minuten Zeitersparnis pro Lead.",
+    "ctaLabel": "Zum MoebelKlar Playbook",
+    "ctaHref": "/case-studies/moebelklar-lead-optimierung",
+    "imageAlt": "Vertriebsteam der MoebelKlar GmbH betrachtet Leistungsmetriken auf einem Dashboard"
+  },
+  "whyUs": {
+    "title": "Warum Teams obsidio waehlen",
+    "items": [
+      "Fachteams gestalten jede Iteration gemeinsam mit Solution Architects.",
+      "Governance integriert: Audit-Trails, Schutzrahmen und menschliche Eingriffe.",
+      "Senior Builder mit Erfahrung aus Enterprise und Startups.",
+      "Onboarding-Playbooks, die nicht-technische Teams schnell produktiv machen."
+    ]
+  },
+  "resources": {
+    "left": {
+      "date": "Neu in Q4 2025",
+      "title": "AI for Business Owners (Einsteiger-Guide)",
+      "desc": "Praktischer Schritt-fuer-Schritt-Plan, um KI schnell, sicher und DSGVO-konform einzufuehren.",
+      "bullets": [
+        "Identifizieren Sie passende Use Cases in unter einer Stunde.",
+        "Uebernehmen Sie 10+ Workflows fuer Vertrieb, Service und Operations.",
+        "Bleiben Sie konform mit DSGVO- und EU-AI-Act-Checkliste."
+      ],
+      "previewIntro": "Bereit fuer den direkten Download?",
+      "previewLink": {
+        "label": "Direkt zum Formular",
+        "href": "/resources/ebook"
+      },
+      "primaryCta": {
+        "label": "E-Book holen",
+        "href": "/resources/ebook/details"
+      },
+      "coverSrc": "/images/ebook-cover.jpg",
+      "coverAlt": "AI for Business Owners E-Book Cover"
+    },
+    "right": [
+      {
+        "kind": "post",
+        "title": "Infografik: KI-Automatisierung fuer KMUs",
+        "href": "/blog/ai-automation-dach-guide",
+        "meta": "Blog - 15. Okt 2025"
+      },
+      {
+        "kind": "post",
+        "title": "Von Excel zu Insights mit KI",
+        "href": "/blog/from-excel-to-insight",
+        "meta": "Blog - 2. Okt 2025"
+      },
+      {
+        "kind": "video",
+        "title": "Guardrails fuer KI-Copilots entwickeln",
+        "videoId": "VIDEO_ID_1",
+        "meta": "Video"
+      }
+    ]
+  },
+  "stacks": {
+    "title": "Unterstuetzte Stacks",
+    "subtitle": "Integrationen, Automationen und Dashboards, mit denen wir taeglich arbeiten",
+    "items": [
+      {
+        "name": "OpenAI",
+        "logoKey": "openai"
+      },
+      {
+        "name": "Microsoft Azure AI",
+        "logoKey": "azure-ai"
+      },
+      {
+        "name": "Google Cloud",
+        "logoKey": "google-cloud"
+      },
+      {
+        "name": "AWS",
+        "logoKey": "aws"
+      },
+      {
+        "name": "n8n",
+        "logoKey": "n8n"
+      },
+      {
+        "name": "Zapier",
+        "logoKey": "zapier"
+      },
+      {
+        "name": "Make",
+        "logoKey": "make"
+      },
+      {
+        "name": "Power Automate",
+        "logoKey": "power-automate"
+      },
+      {
+        "name": "Microsoft 365",
+        "logoKey": "microsoft-365"
+      },
+      {
+        "name": "Google Workspace",
+        "logoKey": "google-workspace"
+      },
+      {
+        "name": "Shopify",
+        "logoKey": "shopify"
+      },
+      {
+        "name": "HubSpot",
+        "logoKey": "hubspot"
+      }
+    ]
+  }
+}

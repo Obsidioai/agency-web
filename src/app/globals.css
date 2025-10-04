@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --shadow-skin1:0 1px 2px rgba(0,0,0,.25);
+  --shadow-skin2:0 8px 24px rgba(0,0,0,.35);
+  --shadow-glowAccent:0 0 0 6px rgba(0,245,160,.18);
+}
+
+html,body{ background:#FFFFFF; color:#111827; }
+
+.motion-ambient { display: none; }
+
+
+/* Respect reduced motion: disable fancy transforms if the user prefers less */
+@media (prefers-reduced-motion: reduce) {
+  .motion-hover\:lift:hover { transform: none !important; }
+  .motion-focus\:glow:focus-visible { box-shadow: none !important; }
+  .motion-ambient { display: none !important; }
+}
+
+/* micro-motion helpers */
+@media (prefers-reduced-motion: reduce) {
+  .motion-hover\:lift:hover { transform: none !important; }
+  .motion-focus\:glow:focus-visible { box-shadow: none !important; }
+  .motion-ambient { display: none !important; }
+  .tilt { transform: none !important; }
+}
+.perspective-1000 { perspective: 1000px; }
+.tilt {
+  transition: transform 180ms cubic-bezier(.2,0,0,1), box-shadow 180ms;
+  will-change: transform;
+}
+/* micro-motion helpers (already used elsewhere) */
+@media (prefers-reduced-motion: reduce) {
+  .motion-hover\:lift:hover { transform: none !important; }
+  .motion-focus\:glow:focus-visible { box-shadow: none !important; }
+  .motion-ambient { display: none !important; }
+}
+.perspective-1000 { perspective: 1000px; }
+.tilt { transition: transform 180ms cubic-bezier(.2,0,0,1); will-change: transform; }
+
+/* ladder spine on large screens */
+@media (min-width: 1024px) {
+  .ladder-spine {
+    position: absolute; left: 50%; top: 0; bottom: 0;
+    width: 1px; transform: translateX(-50%);
+    background:
+      linear-gradient(to bottom, rgba(0,245,160,.22), rgba(110,74,226,.18)) ,
+      var(--border);
+    opacity: .7;
+  }
+}
+@media (min-width: 1024px) {
+  .timeline-line {
+    position: absolute; left: 50%; top: 0; bottom: 0;
+    width: 2px; transform: translateX(-50%);
+    background: linear-gradient(to bottom, rgba(110,74,226,.2), rgba(0,245,160,.22));
+    opacity: .6;
+  }
+}
