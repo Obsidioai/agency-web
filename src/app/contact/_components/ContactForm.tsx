@@ -113,12 +113,12 @@ export default function ContactForm() {
             <option value="" disabled>
               Bitte wählen Sie eine Leistung
             </option>
-            <option>KI-Automatisierung</option>
-            <option>Beratung</option>
-            <option>Lead-Generierung</option>
-            <option>SaaS-Lösungen</option>
-            <option>Branding</option>
-            <option>Sonstiges</option>
+            <option>SaaS-Entwicklung & Implementierung</option>
+            <option>KI-Beratung für KMU</option>
+            <option>Automatisierung & Workflow-Design</option>
+            <option>Virtueller Helpdesk & Chatbots</option>
+            <option>KI-Potenzialanalyse vor Ort</option>
+            <option>Branchen-Dashboards & Lead-Systeme</option>
           </select>
         </div>
 
@@ -175,7 +175,7 @@ export default function ContactForm() {
         >
           {status === 'sending' ? 'Wird gesendet...' : 'Nachricht senden'}
         </button>
-        <a href="mailto:hello@youragency.com" className="text-base font-semibold text-blue-700 hover:text-blue-800">
+        <a href="mailto:support@obsidioai.com" className="text-base font-semibold text-blue-700 hover:text-blue-800">
           oder schreiben Sie uns direkt eine E-Mail
         </a>
       </div>

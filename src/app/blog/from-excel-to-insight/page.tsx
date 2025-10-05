@@ -1,6 +1,6 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Script from "next/script";
-
+import Link from "next/link";
 export const metadata: Metadata = {
   title: "Infografik: Von Excel zu Insight mit KI",
   description:
@@ -243,12 +243,16 @@ export default function Page() {
             <p className="mx-auto mb-8 max-w-2xl text-lg text-gray-600">
               Sie brauchen keinen Data Scientist. Moderne, benutzerfreundliche KI-Tools sind für KMUs gemacht. Beginnen Sie mit Ihrer wichtigsten Excel-Datei und entdecken Sie, was in Ihren Daten steckt.
             </p>
-            <button className="rounded-lg bg-[#CC2936] px-10 py-4 text-lg font-bold text-white transition-opacity duration-300 hover:opacity-90">
+            <Link
+              href="/contact"
+              className="rounded-lg bg-[#CC2936] px-10 py-4 text-lg font-bold text-white transition-opacity duration-300 hover:opacity-90"
+            >
               Entdecken Sie passende KI-Tools
-            </button>
+            </Link>
           </footer>
         </div>
       </div>
     </>
   );
 }
+

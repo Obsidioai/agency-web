@@ -57,7 +57,7 @@ export default function ServicesShowcase({
             return (
               <article
                 key={itemKey}
-                className="group flex w-full min-h-[320px] cursor-pointer flex-col rounded-3xl bg-neutral-50 p-6 shadow-sm transition-shadow hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-neutral-400"
+                className="group flex w-full min-h-[260px] md:min-h-[320px] cursor-pointer flex-col rounded-3xl bg-neutral-50 p-6 shadow-sm transition-shadow hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-neutral-400"
                 tabIndex={0}
                 role="button"
                 aria-expanded={isExpanded}

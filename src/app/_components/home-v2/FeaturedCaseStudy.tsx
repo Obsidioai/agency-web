@@ -1,5 +1,6 @@
 ﻿"use client";
 
+import Image from "next/image";
 import Link from "next/link";
 
 const arrow = "→";
@@ -13,6 +14,7 @@ type Props = {
   result: string;
   ctaLabel: string;
   ctaHref: string;
+  imageSrc: string;
   imageAlt: string;
 };
 
@@ -74,15 +76,20 @@ export default function FeaturedCaseStudy(props: Props) {
             </p>
           </div>
 
-          <div className="relative flex flex-1 items-center justify-center overflow-hidden rounded-3xl border border-slate-100 bg-slate-900/90 text-white shadow-md">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(127,216,190,0.35),_rgba(15,23,42,0.95))]" />
-            <div className="relative flex flex-col items-center gap-3 px-6 py-10 text-center">
-              <span className="rounded-full bg-white/10 px-3 py-1 text-[11px] uppercase tracking-[0.3em]">Preview</span>
-              <p className="text-sm font-medium text-white/80">{props.imageAlt}</p>
-            </div>
+          <div className="overflow-hidden rounded-3xl border border-slate-100 shadow-md">
+            <Image
+              src={props.imageSrc}
+              alt={props.imageAlt}
+              width={720}
+              height={540}
+              sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw"
+              className="h-full w-full object-cover"
+              priority
+            />
           </div>
         </aside>
       </div>
     </div>
   );
 }
+

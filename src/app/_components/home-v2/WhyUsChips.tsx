@@ -18,7 +18,7 @@ export default function WhyUsChips({ title, items }: Props) {
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-emerald-600">Unser 4-Schritte-Ethos</p>
           <h3 className="mt-2 text-2xl font-semibold text-slate-900 md:text-3xl">{title}</h3>
           <p className="mt-3 text-sm text-slate-600 md:text-base">
-            Wir bauen schnell, liefern sicher und beweisen frueh Mehrwert. Kein Blabla – nur Ergebnisse, die Ihr Team sieht.
+            Wir bauen schnell, liefern sicher und beweisen früh Mehrwert. Kein Blabla – nur Ergebnisse, die Ihr Team sieht.
           </p>
         </div>
 

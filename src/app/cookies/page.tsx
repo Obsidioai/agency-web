@@ -2,12 +2,12 @@
 import type { ReactNode } from "react";
 
 export const metadata: Metadata = {
-  title: "Cookie Preferences - Obsidio",
+  title: "Cookie-Einstellungen - Obsidio",
   description:
-    "Understand how Obsidio uses cookies today, how categories differ, and how you can manage your preferences now and in the future.",
+    "Erfahren Sie, wie Obsidio derzeit Cookies nutzt, wie sich die Kategorien unterscheiden und wie Sie Ihre Einstellungen jetzt und in Zukunft verwalten können.",
 };
 
-const LAST_UPDATED = "September 24, 2025";
+const LAST_UPDATED = "24. September 2025";
 
 export default function CookiePreferencesPage() {
   return (
@@ -18,172 +18,178 @@ export default function CookiePreferencesPage() {
           style={{ background: "linear-gradient(135deg, rgba(184,167,255,0.35), rgba(127,216,190,0.35))" }}
         >
           <span className="text-xs font-semibold uppercase tracking-wide text-neutral-600">
-            Cookie Preferences
+            Cookie-Einstellungen
           </span>
           <h1 className="mt-3 text-3xl font-extrabold tracking-tight md:text-4xl">
-            Your choices for cookies on Obsidio.com
+            Ihre Cookie-Auswahl auf Obsidio.com
           </h1>
           <p className="mt-3 max-w-3xl text-sm text-neutral-700 md:text-base">
-            Learn what cookies are, which ones we currently use (only the essentials), and how you can control future
-            categories as we expand our tooling.
+            Erfahren Sie, was Cookies sind, welche wir derzeit einsetzen (ausschließlich notwendige) und wie Sie künftige
+            Kategorien steuern können, sobald wir unser Angebot erweitern.
           </p>
           <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-neutral-600">
-            Last updated: {LAST_UPDATED}
+            Zuletzt aktualisiert: {LAST_UPDATED}
           </p>
         </div>
       </section>
 
       <section className="px-6 pb-16 md:px-10">
         <div className="mx-auto max-w-4xl space-y-10">
-          <Section title="Your Privacy and Cookie Preferences">
+          <Section title="Ihre Privatsphäre und Cookie-Einstellungen">
             <p>
-              Obsidio is committed to delivering an excellent user experience while respecting your privacy. This page
-              explains what cookies are, how we currently rely on them (minimally), and how you will be able to manage
-              preferences for different cookie categories going forward.
+              Obsidio verpflichtet sich, ein hervorragendes Nutzererlebnis zu bieten und gleichzeitig Ihre Privatsphäre zu
+              schützen. Auf dieser Seite erfahren Sie, was Cookies sind, wie wir sie aktuell nur in minimalem Umfang einsetzen
+              und wie Sie künftig einzelne Kategorien selbst verwalten können.
             </p>
           </Section>
 
-          <Section title="What Are Cookies?">
+          <Section title="Was sind Cookies?">
             <p>
-              Cookies are small text files that websites send to your browser and store on your device. They help websites
-              work efficiently, remember preferences, and collect usage insights. Cookies may be set by the site you visit
-              (first-party cookies) or by third-party services integrated into that site. Every cookie serves a purpose Â– some
-              are essential for basic functionality, while others support personalization, analytics, or advertising.
+              Cookies sind kleine Textdateien, die Websites an Ihren Browser senden und auf Ihrem Gerät speichern. Sie helfen
+              Websites, effizient zu funktionieren, sich Einstellungen zu merken und Nutzungsinformationen zu sammeln. Cookies
+              können von der besuchten Seite selbst (First-Party-Cookies) oder von eingebundenen Drittanbietern gesetzt werden.
+              Jedes Cookie erfüllt einen Zweck – einige sind für die grundlegende Funktion unerlässlich, andere unterstützen
+              Personalisierung, Analysen oder Werbung.
             </p>
           </Section>
 
-          <Section title="Our Current Cookie Use">
+          <Section title="Unsere aktuelle Cookienutzung">
             <p>
-              Right now, Obsidio only uses cookies that are strictly necessary for the operation of the site. We do not deploy
-              analytics, advertising, or other optional cookies, meaning we are not tracking your behavior for statistics or
-              marketing. Aside from essential cookies (if any) that enable core features, nothing else is stored on your
-              device without consent. Because of that, you wonÂ’t see an optional-cookie banner today. When we introduce new
-              cookie categories in the future (for example, analytics to understand site performance), this page and our
-              consent flows will be updated accordingly (cambridge.org).
+              Derzeit verwendet Obsidio ausschließlich Cookies, die für den Betrieb der Website unbedingt erforderlich sind.
+              Wir setzen keine Analyse-, Werbe- oder anderen optionalen Cookies ein und verfolgen Ihr Verhalten daher nicht für
+              Statistik- oder Marketingzwecke. Abgesehen von eventuell notwendigen Cookies, die Kernfunktionen ermöglichen, wird
+              ohne Ihre Zustimmung nichts auf Ihrem Gerät gespeichert. Deshalb sehen Sie derzeit auch keinen Hinweis für
+              optionale Cookies. Sobald wir zusätzliche Kategorien einführen (beispielsweise Analytics, um die Performance zu
+              verstehen), aktualisieren wir diese Seite und unsere Einwilligungsprozesse entsprechend (cambridge.org).
             </p>
           </Section>
 
-          <Section title="Cookie Categories">
+          <Section title="Cookie-Kategorien">
             <p>
-              Cookies are typically grouped into categories that you can manage individually. Here is what each category means
-              and how Obsidio plans to handle them:
+              Cookies werden in der Regel in Kategorien gruppiert, die Sie einzeln verwalten können. So verstehen Sie, was jede
+              Kategorie bedeutet und wie Obsidio künftig damit umgeht:
             </p>
             <article className="space-y-6">
               <div>
-                <h3 className="text-lg font-semibold">Strictly Necessary Cookies (Always Active)</h3>
+                <h3 className="text-lg font-semibold">Unbedingt erforderliche Cookies (immer aktiv)</h3>
                 <p>
-                  Essential for the basic functionality and security of the site and cannot be disabled from within our
-                  systems (cambridge.org). They respond to actions you take Â– such as submitting a contact form or maintaining
-                  a login. They do not store personal information beyond what is required for their function. Blocking them via
-                  your browser may break parts of the site. Current status: we may set a minimal session identifier, but no
-                  other cookies.
+                  Sie sind für die grundlegende Funktionalität und Sicherheit der Website unverzichtbar und können in unseren
+                  Systemen nicht deaktiviert werden (cambridge.org). Sie reagieren auf Aktionen wie das Absenden eines
+                  Kontaktformulars oder das Aufrechterhalten einer Sitzung. Sie speichern keine personenbezogenen Informationen
+                  über das für ihren Zweck notwendige Maß hinaus. Wenn Sie sie in Ihrem Browser blockieren, können Teile der
+                  Seite nicht mehr richtig funktionieren. Aktueller Stand: Wir setzen gegebenenfalls einen minimalen
+                  Sitzungs-Identifikator, jedoch keine weiteren Cookies.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-semibold">Functional Cookies</h3>
+                <h3 className="text-lg font-semibold">Funktionale Cookies</h3>
                 <p>
-                  These enable enhanced functionality or personalization, like remembering language preferences or layouts. They
-                  can be set by us or by third-party services embedded on the site. Disabling them can reduce convenience or
-                  disable certain features. Current status: not in use. If introduced, they will remain optional and require
-                  consent.
+                  Diese Cookies ermöglichen erweiterte Funktionen oder Personalisierung, zum Beispiel das Merken von
+                  Spracheinstellungen oder Layouts. Sie können von uns oder von eingebetteten Drittanbietern gesetzt werden. Wenn
+                  Sie sie deaktivieren, verringert sich der Komfort oder bestimmte Funktionen stehen nicht zur Verfügung.
+                  Aktueller Stand: nicht im Einsatz. Sollten wir sie einführen, bleiben sie optional und erfordern Ihre
+                  Zustimmung.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-semibold">Analytics / Performance Cookies</h3>
+                <h3 className="text-lg font-semibold">Analyse- / Performance-Cookies</h3>
                 <p>
-                  Analytics cookies collect aggregated, anonymous information about how visitors use the site Â– such as popular
-                  pages or error rates Â– so we can improve content and performance. They are optional and will only be set if
-                  you opt in (cambridge.org). Current status: none deployed. We will request consent before launching any
-                  analytics tooling.
+                  Analyse-Cookies sammeln aggregierte, anonyme Informationen darüber, wie Besucher die Seite nutzen - etwa
+                  beliebte Seiten oder Fehlerraten -, damit wir Inhalte und Leistung verbessern können. Sie sind optional und
+                  werden nur gesetzt, wenn Sie ausdrücklich zustimmen (cambridge.org). Aktueller Stand: Derzeit nicht im Einsatz.
+                  Vor Einführung entsprechender Tools fragen wir nach Ihrer Einwilligung.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-semibold">Marketing / Advertising Cookies</h3>
+                <h3 className="text-lg font-semibold">Marketing- / Werbe-Cookies</h3>
                 <p>
-                  Used to deliver more relevant ads and measure campaign effectiveness. These cookies are typically set by
-                  advertising partners and track browsing habits across sites. They are optional and will only activate with
-                  explicit consent. Current status: not used today.
+                  Sie dienen dazu, relevantere Werbung bereitzustellen und den Erfolg von Kampagnen zu messen. Diese Cookies
+                  werden meist von Werbepartnern gesetzt und verfolgen das Surfverhalten über mehrere Websites hinweg. Sie sind
+                  optional und werden nur mit Ihrer expliziten Zustimmung aktiviert. Aktueller Stand: werden derzeit nicht
+                  verwendet.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg font-semibold">Other Third-Party Cookies</h3>
+                <h3 className="text-lg font-semibold">Weitere Drittanbieter-Cookies</h3>
                 <p>
-                  Some features, such as embedded videos or social sharing tools, may set additional cookies that fall under the
-                  categories above. These would only trigger if you interact with the feature, and we will provide clear
-                  information and consent options beforehand.
+                  Einzelne Funktionen wie eingebettete Videos oder Social-Sharing-Tools können zusätzliche Cookies setzen, die in
+                  die obigen Kategorien fallen. Sie werden nur ausgelöst, wenn Sie die Funktion nutzen, und wir informieren Sie im
+                  Voraus klar über Zweck und Einwilligungsoptionen.
                 </p>
               </div>
             </article>
           </Section>
 
-          <Section title="Managing Your Cookie Preferences">
+          <Section title="Ihre Cookie-Einstellungen verwalten">
             <p>
-              Once we introduce non-essential cookies, you will see a consent banner that lets you enable or disable each
-              category (apart from Strictly Necessary, which remain active). You will also have access to a "Cookie Settings"
-              link Â– typically in the footer Â– to adjust your choices at any time. We will honor your selections by only
-              loading cookies in the categories you approve.
+              Sobald wir nicht notwendige Cookies einführen, sehen Sie ein Einwilligungsbanner, mit dem Sie jede Kategorie - mit
+              Ausnahme der unbedingt erforderlichen Cookies - aktivieren oder deaktivieren können. Zusätzlich finden Sie
+              jederzeit einen Link "Cookie-Einstellungen" (typischerweise im Footer), um Ihre Auswahl anzupassen. Wir
+              respektieren Ihre Entscheidung, indem wir nur die Kategorien laden, denen Sie zugestimmt haben.
             </p>
             <p>
-              <strong>Browser controls:</strong> You can also manage cookies through your browserÂ’s privacy settings (pwc.com). Most browsers
-              allow you to block or delete cookies, either broadly or on a per-site basis. Keep in mind that blocking all
-              cookies may interfere with essential functions Â– including our ability to remember your preferences Â– because
-              that itself relies on a necessary cookie. Consider allowing essential cookies while blocking others until you
-              grant consent.
+              <strong>Browser-Steuerung:</strong> Sie können Cookies auch über die Datenschutzeinstellungen Ihres Browsers verwalten (pwc.com).
+              Öffnen Sie dazu die Einstellungen Ihres bevorzugten Browsers und passen Sie dort Cookies nach Ihren Bedürfnissen
+              an. Die meisten Browser erlauben es, Cookies generell oder für einzelne Websites zu blockieren oder zu löschen.
+              Bedenken Sie, dass das Blockieren aller Cookies grundlegende Funktionen beeinträchtigen kann - einschließlich
+              unserer Möglichkeit, Ihre Präferenzen zu speichern -, weil auch das auf einem notwendigen Cookie beruht. Erlauben
+              Sie daher idealerweise essentielle Cookies und blockieren Sie andere, bis Sie Ihre Zustimmung erteilen.
             </p>
             <p>
-              <strong>Do Not Track signals:</strong> Some browsers provide a Do Not Track option, but there is no industry consensus on how to
-              interpret it. Given our minimal cookie use today, you are effectively not being tracked. If we introduce tracking
-              technologies, your explicit preferences set via our consent tool will take precedence, and we will update this
-              page if our approach changes.
+              <strong>Do-Not-Track-Signale:</strong> Manche Browser senden ein Do-Not-Track-Signal, doch es gibt keinen Branchenstandard für die
+              Auslegung. Angesichts unserer minimalen Cookie-Nutzung werden Sie derzeit faktisch nicht verfolgt. Sollten wir
+              Tracking-Technologien einführen, haben die von Ihnen im Einwilligungstool gesetzten Präferenzen Vorrang, und wir
+              aktualisieren diese Seite, falls sich unser Vorgehen ändert.
             </p>
           </Section>
 
-          <Section title="Future Updates and More Information">
+          <Section title="Zukünftige Aktualisierungen und weitere Informationen">
             <p>
-              We will update this page whenever our cookie practices change Â– for example, if we implement analytics or launch
-              advertising campaigns involving cookies. The "Last updated" date will reflect any revisions. We encourage you to
-              review this page periodically.
+              Wir aktualisieren diese Seite, sobald sich unsere Cookie-Praxis ändert - etwa wenn wir Analytics implementieren
+              oder Werbekampagnen mit Cookies starten. Über zukünftige Änderungen informieren wir Sie umgehend; das Datum
+              "Zuletzt aktualisiert" spiegelt jede Anpassung wider. Wir empfehlen, die Seite regelmäßig zu prüfen.
             </p>
             <p>
-              Helpful resources:
+              Nützliche Ressourcen:
             </p>
             <ul className="list-disc space-y-3 pl-5">
               <li>
                 <a href="https://www.aboutcookies.org" className="text-[#4B64F3] hover:underline">
                   AllAboutCookies (aboutcookies.org)
                 </a>
-                Â– guides for managing cookies in popular browsers (pwc.com).
+                - Anleitungen zum Verwalten von Cookies in gängigen Browsern (pwc.com).
               </li>
               <li>
                 <a href="https://www.youronlinechoices.eu" className="text-[#4B64F3] hover:underline">
                   YourOnlineChoices.eu
                 </a>
-                Â– EU-based opt-out portal for many advertising cookies.
+                - EU-weites Opt-out-Portal für zahlreiche Werbe-Cookies.
               </li>
               <li>
                 <a href="https://optout.networkadvertising.org" className="text-[#4B64F3] hover:underline">
                   Network Advertising Initiative opt-out
                 </a>
-                Â– additional controls for targeted advertising networks.
+                - Zusätzliche Kontrollmöglichkeiten für zielgruppenbasierte Werbenetzwerke.
               </li>
             </ul>
             <p>
-              Note: opting out through these services may set an opt-out cookie. If you clear cookies, you may need to repeat
-              the process.
+              Hinweis: Durch die Nutzung dieser Dienste wird eventuell ein Opt-out-Cookie gesetzt. Wenn Sie Cookies löschen,
+              müssen Sie den Vorgang möglicherweise wiederholen.
             </p>
           </Section>
 
-          <Section title="Contact Us">
+          <Section title="Kontakt">
             <p>
-              Questions about our cookie use or managing your preferences? Contact us at
-              <a href="mailto:privacy@obsidio.com" className="text-[#4B64F3] hover:underline"> privacy@obsidio.com</a> and we will be glad to
-              help.
+              Fragen zu unserer Cookienutzung oder zu Ihren Einstellungen? Schreiben Sie uns an
+              <a href="mailto:privacy@obsidio.com" className="text-[#4B64F3] hover:underline">privacy@obsidio.com</a>, wir helfen Ihnen gern
+              weiter.
             </p>
             <p>
-              Thank you for taking the time to review our Cookie Preferences. As Obsidio grows, we will continue to deploy
-              analytics or personalization features thoughtfully, giving you transparent control over your data.
+              Vielen Dank, dass Sie sich Zeit für unsere Cookie-Einstellungen genommen haben. Während Obsidio wächst, führen wir
+              Analyse- oder Personalisierungsfunktionen mit Bedacht ein und geben Ihnen jederzeit transparente Kontrolle über
+              Ihre Daten.
             </p>
-            <p>Happy browsing Â– with or without cookies!</p>
+            <p>Viel Freude beim Surfen - mit oder ohne Cookies!</p>
           </Section>
         </div>
       </section>

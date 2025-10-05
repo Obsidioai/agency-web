@@ -53,8 +53,8 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
   const hasResults = filteredPosts.length > 0;
   const resultsSummary = hasQuery
     ? hasResults
-      ? `${filteredPosts.length} Treffer fuer "${trimmedQuery}"`
-      : `Keine Treffer fuer "${trimmedQuery}". Versuchen Sie ein anderes Stichwort.`
+      ? `${filteredPosts.length} Treffer für "${trimmedQuery}"`
+      : `Keine Treffer für "${trimmedQuery}". Versuchen Sie ein anderes Stichwort.`
     : null;
 
   return (
@@ -65,7 +65,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
             Einblicke
           </span>
           <h1 className="mt-4 text-3xl font-extrabold tracking-tight md:text-4xl">
-            Ideen, Playbooks und Datenstories fuer KI-orientierte Teams
+            Ideen, Playbooks und Datenstories für KI-orientierte Teams
           </h1>
           <p className="mx-auto mt-3 max-w-3xl text-sm leading-relaxed text-neutral-600 md:text-base">
             Wir teilen Experimente, Workflows und Compliance-Updates, die zeigen, wie KMU-Betreiber KI sicher einsetzen.
@@ -137,7 +137,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
                       ) : (
                         <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-black/20" aria-hidden />
                       )}
-                      <span className="sr-only">Titelbild fuer {post.title}</span>
+                      <span className="sr-only">Titelbild für {post.title}</span>
                     </figure>
                     <div className="flex h-full flex-col gap-3 p-5">
                       <div className="flex items-center justify-end text-xs font-semibold uppercase tracking-wide text-neutral-500">
@@ -169,7 +169,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
         ) : (
           <div className="mx-auto max-w-3xl rounded-2xl border border-dashed border-neutral-300 bg-white/80 px-6 py-12 text-center text-sm text-neutral-600 shadow-sm">
             <p>
-              Wir konnten keinen passenden Artikel finden. Schreiben Sie uns, wenn Sie ein bestimmtes Thema sehen moechten.
+              Wir konnten keinen passenden Artikel finden. Schreiben Sie uns, wenn Sie sich ein bestimmtes Thema wünschen.
             </p>
             <div className="mt-5">
               <Link
@@ -199,7 +199,7 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
               <li>
                 <span className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-neutral-300 bg-white text-neutral-400">
                   <span aria-hidden>&gt;</span>
-                  <span className="sr-only">Naechste Seite</span>
+                  <span className="sr-only">Nächste Seite</span>
                 </span>
               </li>
             </ul>
@@ -209,4 +209,5 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
     </main>
   );
 }
+
 

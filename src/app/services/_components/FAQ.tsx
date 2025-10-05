@@ -4,11 +4,11 @@ const faqs = [
   {
     question: "Wie starten wir?",
     answer:
-      "Kickoff-Call -> Discovery-Sprint -> erster ausgelieferter Gewinn. Ab Tag eins sehen Sie einen einfachen Plan, klare Verantwortlichkeiten und Messgroessen.",
+      "Kickoff-Call -> Discovery-Sprint -> erster ausgelieferter Gewinn. Ab Tag eins sehen Sie einen einfachen Plan, klare Verantwortlichkeiten und Messgrößen.",
     icon: Rocket
   },
   {
-    question: "Wie schnell koennen wir starten?",
+    question: "Wie schnell können wir starten?",
     answer:
       "Ein Discovery-Sprint kann innerhalb einer Woche beginnen. Die meisten Teams sehen ihre erste Automatisierung oder ein Enablement-Asset innerhalb von 2-4 Wochen nach dem Kickoff.",
     icon: Timer
@@ -16,13 +16,13 @@ const faqs = [
   {
     question: "Daten & Sicherheit?",
     answer:
-      "Wir folgen DSGVO-Best Practices, schliessen Auftragsverarbeitungsvertraege (DPAs) und koennen innerhalb EU-gebundener Infrastruktur deployen. Zugriffe sind fuer jedes Engagement klar abgegrenzt und protokolliert.",
+      "Wir folgen DSGVO-Best Practices, schließen Auftragsverarbeitungsverträge (DPAs) und können innerhalb EU-gebundener Infrastruktur deployen. Zugriffe sind für jedes Engagement klar abgegrenzt und protokolliert.",
     icon: ShieldCheck
   },
   {
     question: "Schulen Sie unsere Teams?",
     answer:
-      "Ja. Jedes Projekt umfasst Playbooks, Dokumentation und Live-Enablement. Auf Wunsch fuehren wir Follow-up-Sessions durch, um die neuen Workflows zu verankern.",
+      "Ja. Jedes Projekt umfasst Playbooks, Dokumentation und Live-Enablement. Auf Wunsch führen wir Follow-up-Sessions durch, um die neuen Workflows zu verankern.",
     icon: Mail
   }
 ];
@@ -47,7 +47,7 @@ export default function FAQ() {
             Antworten, bevor wir loslegen
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-sm text-neutral-600 md:text-base">
-            Klare Erwartungen beschleunigen jedes Projekt. Das sind die haeufigsten Fragen von Gründerinnen, Operatoren und Marketing-Leads.
+            Klare Erwartungen beschleunigen jedes Projekt. Das sind die häufigsten Fragen von Gründerinnen, Operatoren und Marketing-Leads.
           </p>
         </div>
 

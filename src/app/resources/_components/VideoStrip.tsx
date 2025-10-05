@@ -1,6 +1,6 @@
 export default function VideoStrip() {
   const vids = [
-    { id: 'VIDEO_ID_1', title: "Best ChatGPT prompts for SMB ops" },
+    { id: 'WXZIrXrMArM', title: "Die 4. Revolution: Mit KI zu mehr Umsatz (fuer KMU)" },
     { id: 'VIDEO_ID_2', title: "AI Automation Starter Kit" },
     { id: 'VIDEO_ID_3', title: "SaaS MVP in 48h (LLM + low-code)" }
   ];

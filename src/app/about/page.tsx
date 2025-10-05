@@ -44,7 +44,7 @@ function Hero() {
       >
         <h1 className="text-3xl font-extrabold tracking-tight md:text-5xl">Wir gestalten. Wir liefern.</h1>
         <p className="mt-3 max-w-3xl text-sm text-neutral-700 md:text-base">
-          Wir verbinden Design, Strategie und verlaessliche Softwarebereitstellung, damit KMU-Teams schneller und mit weniger Risiko vorankommen.
+          Wir verbinden Design, Strategie und verlässliche Softwarebereitstellung, damit KMU-Teams schneller und mit weniger Risiko vorankommen.
         </p>
 
         <div className="mt-5 flex flex-wrap gap-3">
@@ -124,14 +124,14 @@ function BottomCTA() {
         <p className="text-sm text-neutral-700">Aus Wien, mit Fokus.</p>
         <h3 className="mt-1 text-2xl font-extrabold md:text-3xl">Bereit, klar durchzustarten?</h3>
         <p className="mt-2 text-sm text-neutral-700 md:text-base">
-          Buchen Sie ein 30-minuetiges Gespraech. Gemeinsam definieren wir den mutigsten ersten Schritt.
+          Buchen Sie ein 30-minütiges Gespräch. Gemeinsam definieren wir den mutigsten ersten Schritt.
         </p>
         <div className="mt-5">
           <Link
             href="/contact"
             className="inline-flex items-center rounded-xl bg-neutral-900 px-5 py-3 text-sm font-semibold text-white hover:opacity-90"
           >
-            Gespraech vereinbaren
+            Gespräch vereinbaren
           </Link>
         </div>
       </div>

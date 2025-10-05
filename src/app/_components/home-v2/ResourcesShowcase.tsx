@@ -1,7 +1,8 @@
-'use client';
+﻿'use client';
 
 import Image from 'next/image';
 import Link from 'next/link';
+import EbookDownloadCTA from '@/app/resources/EbookDownloadCTA';
 
 type Cta = {
   label: string;
@@ -40,6 +41,7 @@ type RightCard = PostCard | VideoCard;
 export default function ResourcesShowcase({ left, right }: { left: Left; right: RightCard[] }) {
   const articles = right.filter((card): card is PostCard => card.kind === 'post');
   const video = right.find((card): card is VideoCard => card.kind === 'video');
+  const usesModal = left.primaryCta.href === '/resources/ebook/details';
 
   return (
     <div className="grid gap-6 xl:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]">
@@ -60,14 +62,18 @@ export default function ResourcesShowcase({ left, right }: { left: Left; right: 
               ))}
             </ul>
             <div className="mt-6 flex flex-wrap gap-3">
-              <Link
-                href={left.primaryCta.href}
-                className="inline-flex items-center rounded-xl bg-[#4B64F3] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:opacity-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#4B64F3]/40"
-              >
-                {left.primaryCta.label}
-              </Link>
+              {usesModal ? (
+                <EbookDownloadCTA />
+              ) : (
+                <Link
+                  href={left.primaryCta.href}
+                  className="inline-flex items-center rounded-xl bg-[#4B64F3] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:opacity-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#4B64F3]/40"
+                >
+                  {left.primaryCta.label}
+                </Link>
+              )}
             </div>
-            {left.previewIntro && left.previewLink ? (
+            {!usesModal && left.previewIntro && left.previewLink ? (
               <p className="mt-4 text-xs text-neutral-600 md:text-sm">
                 {left.previewIntro}{' '}
                 <Link href={left.previewLink.href} className="font-semibold text-[#4B64F3] hover:underline">
@@ -161,6 +167,15 @@ function CheckIcon() {
     </svg>
   );
 }
+
+
+
+
+
+
+
+
+
 
 
 

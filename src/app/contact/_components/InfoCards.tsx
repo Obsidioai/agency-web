@@ -6,20 +6,26 @@
 ].join(' ');
 
 export default function InfoCards() {
-  const chips = ['Automatisierung', 'Beratung', 'Lead-Generierung', 'SaaS', 'Branding'];
+  const chips = [
+    'SaaS-Entwicklung & Implementierung',
+    'KI-Beratung für KMU',
+    'Automatisierung & Workflow-Design',
+    'Virtueller Helpdesk & Chatbots',
+    'KI-Potenzialanalyse vor Ort',
+    'Branchen-Dashboards & Lead-Systeme'
+  ];
 
   return (
     <div className="grid gap-4">
-      <a href="mailto:hello@youragency.com" className={cardBase}>
+      <a href="mailto:support@obsidioai.com" className={cardBase}>
         <span className="text-xs font-semibold uppercase tracking-wide text-primary">Schreiben Sie uns</span>
-        <div className="text-lg font-semibold text-text">hello@youragency.com</div>
+        <div className="text-lg font-semibold text-text">support@obsidioai.com</div>
         <p className="text-sm text-muted">Wir antworten innerhalb eines Werktags.</p>
       </a>
 
-      <a href="tel:+43660000000" className={cardBase}>
+      <a href="tel:+43660582394" className={cardBase}>
         <span className="text-xs font-semibold uppercase tracking-wide text-primary">Rufen Sie uns an</span>
-        <div className="text-lg font-semibold text-text">+43 660 000 000</div>
-        <p className="text-sm text-muted">Werktags 9:00-18:00 Uhr MEZ.</p>
+        <div className="text-lg font-semibold text-text">+43 660 582394</div>
       </a>
 
       <div className={cardBase}>

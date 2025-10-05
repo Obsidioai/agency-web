@@ -97,6 +97,7 @@ export default function Footer({ locale = "en", onLocalePath }: FooterProps) {
   const navItems = NAV_ITEMS[locale];
   const navColumns = [navItems.slice(0, 3), navItems.slice(3)];
   const legalLinks = LEGAL_LINKS[locale];
+  const visibleLegalLinks = legalLinks.filter((link) => link.href !== "/impressum");
 
   return (
     <footer className="border-t bg-[#FAF9F6] text-neutral-900">
@@ -143,7 +144,7 @@ export default function Footer({ locale = "en", onLocalePath }: FooterProps) {
             </Link>
 
             <ul className="flex flex-wrap gap-x-6 gap-y-3 text-[12px] font-semibold tracking-wide text-neutral-800">
-              {legalLinks.map((link) => (
+              {visibleLegalLinks.map((link) => (
                 <li key={link.label} className="whitespace-nowrap">
                   <Link href={localeHref(link.href)} className="underline-offset-4 hover:underline">
                     {link.label}

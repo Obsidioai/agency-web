@@ -41,6 +41,7 @@ export default async function HomePage() {
     result: string;
     ctaLabel: string;
     ctaHref: string;
+    imageSrc: string;
     imageAlt: string;
   };
 

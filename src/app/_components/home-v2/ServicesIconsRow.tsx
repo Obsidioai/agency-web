@@ -24,7 +24,7 @@ export default function ServicesIconsRow({ title, subtitle, items }: Props) {
       <h2 className="text-3xl font-bold tracking-tight md:text-4xl">{title}</h2>
       {subtitle ? <p className="mt-2 text-base text-muted-foreground md:text-lg">{subtitle}</p> : null}
 
-      <div className="mt-10 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-6">
+      <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6">
         {items.map((it, i) => {
           const iconNode = it.icon && ICON_MAP[it.icon] ? ICON_MAP[it.icon] : ICON_MAP.automation;
           const href = it.href ?? '';
@@ -93,3 +93,4 @@ export default function ServicesIconsRow({ title, subtitle, items }: Props) {
     </div>
   );
 }
+

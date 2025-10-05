@@ -1,6 +1,6 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Script from "next/script";
-
+import Link from "next/link";
 export const metadata: Metadata = {
   title: "Infografik: Lead-Generierung in DACH 2025",
   description:
@@ -263,12 +263,19 @@ export default function Page() {
             <p className="mx-auto mb-8 max-w-2xl text-lg text-gray-600">
               Gewinnen Sie Leads nicht durch Lautstärke, sondern durch Relevanz, Vertrauen und sofortigen, messbaren Wert. Das ist der Weg zum Erfolg in der DACH-Region.
             </p>
-            <button className="rounded-lg bg-[#CC2936] px-8 py-3 text-lg font-bold text-white transition-opacity duration-300 hover:opacity-90">
+            <Link
+              href="/contact"
+              className="rounded-lg bg-[#CC2936] px-8 py-3 text-lg font-bold text-white transition-opacity duration-300 hover:opacity-90"
+            >
               Starten Sie Ihre Strategie
-            </button>
+            </Link>
           </footer>
         </div>
       </div>
     </>
   );
 }
+
+
+
+

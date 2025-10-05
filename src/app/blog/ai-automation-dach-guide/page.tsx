@@ -1,6 +1,6 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Script from "next/script";
-
+import Link from "next/link";
 export const metadata: Metadata = {
   title: "Infografik: AI-Automation für KMUs",
   description:
@@ -285,12 +285,16 @@ export default function Page() {
             <p className="mx-auto mb-8 max-w-2xl text-lg text-gray-600">
               KI-Automation ist keine Zukunftsmusik, sondern ein entscheidender Wettbewerbsvorteil. Fangen Sie jetzt an, identifizieren Sie Ihre größten Zeitfresser und lassen Sie sich von Experten auf Ihrem Weg in eine effizientere Zukunft begleiten.
             </p>
-            <button className="rounded-lg bg-gradient-to-r from-[#1976D2] to-[#2196F3] px-10 py-4 text-lg font-bold text-white transition-shadow duration-300 hover:shadow-xl">
+            <Link
+              href="/contact"
+              className="rounded-lg bg-gradient-to-r from-[#1976D2] to-[#2196F3] px-10 py-4 text-lg font-bold text-white transition-shadow duration-300 hover:shadow-xl"
+            >
               Starten Sie Ihre Transformation
-            </button>
+            </Link>
           </footer>
         </div>
       </div>
     </>
   );
 }
+

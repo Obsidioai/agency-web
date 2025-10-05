@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const commitments = [
-  "30-minuetiges Erstgespraech mit einem Automation Lead",
+  "30-minütiges Erstgespräch mit einem Automation Lead",
   "Skizze einer Roadmap mit 2 bis 3 schnellen Erfolgen",
   "Security- und Compliance-Check abgestimmt auf Ihren Stack"
 ];
@@ -13,13 +13,13 @@ export default function FinalCTA() {
         <div className="grid gap-10 px-8 py-10 md:grid-cols-[1.2fr_1fr] md:px-12 md:py-12">
           <div>
             <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white/80">
-              Naechster Schritt
+              Nächster Schritt
             </span>
             <h2 className="mt-5 text-3xl font-bold tracking-tight md:text-4xl">
-              Gemeinsam planen wir Ihren ersten (oder naechsten) KI-Erfolg
+              Gemeinsam planen wir Ihren ersten (oder nächsten) KI-Erfolg
             </h2>
             <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/80 md:text-base">
-              Teilen Sie Ihre groesste Herausforderung, wir bringen den Bauplan mit. Nach einem kurzen Erstgespraech erhalten Sie einen massgeschneiderten Aktionsplan, eine Aufwandsschaetzung und Leitplanken, die Stakeholder sichern.
+              Teilen Sie Ihre größte Herausforderung, wir bringen den Bauplan mit. Nach einem kurzen Erstgespräch erhalten Sie einen maßgeschneiderten Aktionsplan, eine Aufwandsschätzung und Leitplanken, die Stakeholder sichern.
             </p>
             <ul className="mt-6 space-y-3 text-sm text-white/85">
               {commitments.map((item) => (
@@ -34,7 +34,7 @@ export default function FinalCTA() {
                 href="/contact"
                 className="inline-flex items-center rounded-xl bg-white px-5 py-3 text-sm font-semibold text-neutral-900 shadow-md transition hover:-translate-y-0.5 hover:bg-neutral-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#4B64F3]/40"
               >
-                Erstgespraech buchen
+                Erstgespräch buchen
               </Link>
             </div>
           </div>
@@ -43,7 +43,7 @@ export default function FinalCTA() {
             <div>
               <h3 className="text-lg font-semibold text-white md:text-xl">So arbeiten wir zusammen</h3>
               <p className="mt-2 text-base text-white/80 md:text-lg">
-                Wir richten uns an gemeinsamen Zielen aus, definieren Messpunkte fuer Wirkung und planen das Change Management parallel zum Build.
+                Wir richten uns an gemeinsamen Zielen aus, definieren Messpunkte für Wirkung und planen das Change Management parallel zum Build.
               </p>
             </div>
           </aside>

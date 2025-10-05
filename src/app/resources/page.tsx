@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { SVGProps } from "react";
+import EbookDownloadCTA from "./EbookDownloadCTA";
 
 export const metadata: Metadata = {
   title: "Ressourcen - Obsidio",
@@ -46,12 +47,7 @@ export default function ResourcesPage() {
                 </li>
               </ul>
               <div className="mt-6 flex flex-wrap gap-3">
-                <Link
-                  href="/resources/ebook"
-                  className="inline-flex items-center rounded-xl bg-[#4B64F3] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:opacity-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#4B64F3]/40"
-                >
-                  Gratis-E-Book erhalten
-                </Link>
+                <EbookDownloadCTA />
                 <Link
                   href="/resources/ebook/details"
                   className="inline-flex items-center rounded-xl border border-neutral-300 bg-white px-5 py-3 text-sm font-semibold text-neutral-900 transition hover:bg-neutral-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400/40"
@@ -101,27 +97,22 @@ export default function ResourcesPage() {
           </header>
 
           <div className="mt-8 grid gap-6 md:grid-cols-[1.2fr_1fr]">
-            <Link
-              href="/videos/ai-automation-starter"
-              className="group relative block overflow-hidden rounded-2xl bg-neutral-200 shadow-md ring-1 ring-black/5"
-            >
-              <div
-                className="aspect-video w-full"
-                style={{
-                  background:
-                    "linear-gradient(180deg, #98B4C0, #415A6B 70%, #2B3C46)",
-                }}
-              />
-              <button
-                aria-label="Video abspielen"
-                className="absolute left-1/2 top-1/2 grid h-16 w-16 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-white/85 shadow-lg backdrop-blur transition group-hover:bg-white"
-              >
-                <Play className="ml-0.5 h-6 w-6 text-neutral-900" />
-              </button>
-              <span className="absolute bottom-3 left-4 rounded-md bg-black/55 px-2 py-1 text-xs font-semibold text-white">
-                KI-Automations-Starterkit
+            <div className="group relative overflow-hidden rounded-2xl bg-neutral-900 shadow-md ring-1 ring-black/5">
+              <div className="aspect-video w-full">
+                <iframe
+                  className="h-full w-full"
+                  src="https://www.youtube.com/embed/WXZIrXrMArM"
+                  title="Die 4. Revolution: Mit KI zu mehr Umsatz (fuer KMU)"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                />
+              </div>
+              <span className="absolute bottom-3 left-4 rounded-md bg-black/70 px-2 py-1 text-xs font-semibold text-white">
+                Die 4. Revolution: Mit KI zu mehr Umsatz (fuer KMU)
               </span>
-            </Link>
+            </div>
 
             <div className="space-y-4">
               <ArticleCard
@@ -139,7 +130,7 @@ export default function ResourcesPage() {
 
           <div className="mt-6 text-center">
             <Link
-              href="/resources/all"
+              href="https://www.youtube.com/@ObsidioAI" target="_blank" rel="noopener noreferrer"
               className="text-sm font-semibold text-[#4B64F3] hover:underline"
             >
               Mehr auf unserem YouTube-Kanal und Blog entdecken
@@ -217,6 +208,11 @@ function ArticleCard({ date, title, excerpt, href }: ArticleCardProps) {
     </Link>
   );
 }
+
+
+
+
+
 
 
 

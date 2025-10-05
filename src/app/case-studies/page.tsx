@@ -78,7 +78,7 @@ export default function CaseStudiesPage() {
                   ) : null}
 
                   <div className="flex items-center justify-between rounded-2xl border border-rose-100 bg-rose-50/60 px-6 py-5 text-sm font-medium text-rose-900">
-                    <span>Read the MöbelKlar playbook</span>
+                    <span>Lesen Sie das MöbelKlar-Playbook</span>
                     <span className="text-base">→</span>
                   </div>
                 </div>
@@ -139,7 +139,7 @@ export default function CaseStudiesPage() {
                   ) : null}
 
                   <div className="flex items-center justify-between rounded-2xl border border-slate-200/80 bg-slate-100/80 px-6 py-5 text-sm font-medium text-slate-900">
-                    <span>Explore the KMU AI pillars</span>
+                    <span>Entdecken Sie die KMU-AI-Säulen</span>
                     <span className="text-base">→</span>
                   </div>
                 </div>

@@ -2,28 +2,28 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "KI fuer Unternehmer:innen | E-Book im Detail",
+  title: "KI für Unternehmer:innen | E-Book im Detail",
   description:
-    "Fuer wen unser KI fuer Unternehmer:innen E-Book gedacht ist, welche Inhalte es abdeckt und wie KMU davon profitieren.",
+    "Für wen unser KI für Unternehmer:innen E-Book gedacht ist, welche Inhalte es abdeckt und wie KMU davon profitieren.",
 };
 
 const heroBullets = [
   "Verstehen Sie KI-Grundlagen ohne Buzzwords oder Hype.",
-  "Erfahren Sie, wo KMU bereits KI einsetzen und welche Ergebnisse moeglich sind.",
-  "Nutzen Sie sofort einsatzbereite Workflows und Prompts fuer einen sicheren Start.",
+  "Erfahren Sie, wo KMU bereits KI einsetzen und welche Ergebnisse möglich sind.",
+  "Nutzen Sie sofort einsatzbereite Workflows und Prompts für einen sicheren Start.",
 ];
 
 const audience = [
-  "Eigentuemerinnen, Eigentuemer und Fuehrungskraefte, die einen praxisnahen KI-Ueberblick suchen.",
+  "Eigentümerinnen, Eigentümer und Führungskräfte, die einen praxisnahen KI-Überblick suchen.",
   "Entrepreneur:innen und Operations-Teams, die wiederkehrende Arbeit automatisieren wollen.",
-  "Berater:innen, die schnelle Kennzahlen und Vorlagen fuer Mandanten benoetigen.",
+  "Berater:innen, die schnelle Kennzahlen und Vorlagen für Mandanten benötigen.",
 ];
 
 const takeaways = [
   {
     title: "Adoption beschleunigt sich",
     description:
-      "Mehr als 13% der EU-Unternehmen nutzen bereits KI, bei Grossunternehmen liegt der Anteil bei 41% - die Luecke fuer KMU schliesst sich rasant.",
+      "Mehr als 13% der EU-Unternehmen nutzen bereits KI, bei Großunternehmen liegt der Anteil bei 41% - die Lücke für KMU schließt sich rasant.",
   },
   {
     title: "Nutzen und Leitplanken",
@@ -31,7 +31,7 @@ const takeaways = [
       "Der Leitfaden kombiniert Effizienzgewinne mit Datenschutz, Compliance und Change-Management, damit Teams verantwortungsvoll bleiben.",
   },
   {
-    title: "Konkrete naechste Schritte",
+    title: "Konkrete nächste Schritte",
     description:
       "Checklisten, Budget-Hinweise und kuratierte Prompts helfen, vom Impuls zum Pilotprojekt zu kommen, ohne ins Stocken zu geraten.",
   },
@@ -51,10 +51,10 @@ export default function EbookDetailsPage() {
         />
         <div className="relative mx-auto max-w-4xl text-center">
           <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">
-            KI fuer Unternehmer:innen - Ein Blick ins E-Book
+            KI für Unternehmer:innen - Ein Blick ins E-Book
           </h1>
           <p className="mt-3 text-sm leading-relaxed text-neutral-700 md:text-base">
-            Ein kompakter Leitfaden, der KMU-Teams zeigt, wie sie aus KI-Neugier konkrete Ergebnisse erzielen - mit Kennzahlen, Vorlagen und Prompts fuer einen sicheren Start.
+            Ein kompakter Leitfaden, der KMU-Teams zeigt, wie sie aus KI-Neugier konkrete Ergebnisse erzielen - mit Kennzahlen, Vorlagen und Prompts für einen sicheren Start.
           </p>
           <ul className="mx-auto mt-6 max-w-2xl space-y-2 text-left text-sm text-neutral-700">
             {heroBullets.map((item) => (
@@ -86,10 +86,10 @@ export default function EbookDetailsPage() {
         <div className="mx-auto max-w-4xl space-y-5 rounded-[24px] border border-white/70 bg-white/95 p-8 shadow-md">
           <h2 className="text-2xl font-bold tracking-tight">Das finden Sie im E-Book</h2>
           <p className="text-sm leading-relaxed text-neutral-700">
-            Der Leitfaden bleibt bei verstaendlicher Sprache. Sie erhalten einen Ueberblick ueber KI-Grundlagen, die wichtigsten Technologien in Europa und den Ausloeser fuer den aktuellen Aufschwung.
+            Der Leitfaden bleibt bei verständlicher Sprache. Sie erhalten einen Überblick über KI-Grundlagen, die wichtigsten Technologien in Europa und den Auslöser für den aktuellen Aufschwung.
           </p>
           <p className="text-sm leading-relaxed text-neutral-700">
-            Jedes Kapitel verbindet Zahlen mit konkreten Schritten: Wo Sie KI zuerst einsetzen, wie Sie Aufsichtsbehoerden zufriedenzustellen und welche Workflows sich mit wenig Aufwand automatisieren lassen.
+            Jedes Kapitel verbindet Zahlen mit konkreten Schritten: Wo Sie KI zuerst einsetzen, wie Sie Aufsichtsbehörden zufriedenzustellen und welche Workflows sich mit wenig Aufwand automatisieren lassen.
           </p>
           <div className="grid gap-4 text-sm text-neutral-700 md:grid-cols-3">
             <Highlight label="Kennzahlen" value="Eurostat- und Forbes-Insights" />
@@ -101,9 +101,9 @@ export default function EbookDetailsPage() {
 
       <section className="px-6 pb-14 md:px-10">
         <div className="mx-auto max-w-4xl rounded-[24px] border border-white/70 bg-white/95 p-8 shadow-md">
-          <h2 className="text-2xl font-bold tracking-tight">Fuer wen geeignet</h2>
+          <h2 className="text-2xl font-bold tracking-tight">Für wen geeignet</h2>
           <p className="mt-3 text-sm text-neutral-700">
-            Der Ton bleibt ermutigend und pragmatisch. Ideal fuer Teams, die experimentieren wollen, ohne sofort die komplette Organisation umzubauen.
+            Der Ton bleibt ermutigend und pragmatisch. Ideal für Teams, die experimentieren wollen, ohne sofort die komplette Organisation umzubauen.
           </p>
           <ul className="mt-5 space-y-3 text-sm text-neutral-700">
             {audience.map((item) => (
@@ -120,7 +120,7 @@ export default function EbookDetailsPage() {
         <div className="mx-auto max-w-4xl rounded-[24px] border border-white/70 bg-[#10152D] p-8 text-white shadow-md">
           <h2 className="text-2xl font-bold tracking-tight">Zentrale Erkenntnisse</h2>
           <p className="mt-3 text-sm text-white/75">
-            Teilen Sie diese Punkte mit Stakeholdern, wenn Sie zeigen moechten, warum jetzt der richtige Zeitpunkt fuer KI ist.
+            Teilen Sie diese Punkte mit Stakeholdern, wenn Sie zeigen möchten, warum jetzt der richtige Zeitpunkt für KI ist.
           </p>
           <div className="mt-6 space-y-4">
             {takeaways.map(({ title, description }) => (
@@ -135,9 +135,9 @@ export default function EbookDetailsPage() {
 
       <section className="px-6 pb-20 md:px-10">
         <div className="mx-auto max-w-4xl rounded-[24px] border border-white/70 bg-white/95 p-8 text-center shadow-md">
-          <h2 className="text-2xl font-bold tracking-tight">Bereit fuer den naechsten Schritt?</h2>
+          <h2 className="text-2xl font-bold tracking-tight">Bereit für den nächsten Schritt?</h2>
           <p className="mt-3 text-sm text-neutral-700">
-            Nutzen Sie den Leitfaden, um Ihr naechstes Experiment zu planen, und melden Sie sich, wenn Sie Unterstuetzung bei Konzeption oder Umsetzung wuenschen.
+            Nutzen Sie den Leitfaden, um Ihr nächstes Experiment zu planen, und melden Sie sich, wenn Sie Unterstützung bei Konzeption oder Umsetzung wünschen.
           </p>
           <div className="mt-5 flex flex-wrap justify-center gap-3">
             <Link

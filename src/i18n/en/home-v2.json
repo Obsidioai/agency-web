@@ -55,6 +55,7 @@
     "result": "Die Conversion-Rate stieg von 2,5% auf 10%, qualifizierte Leads wuchsen in sechs Monaten um 300% und der Vertrieb gewann sieben Minuten pro Lead.",
     "ctaLabel": "Zur MoebelKlar-Fallstudie",
     "ctaHref": "/case-studies/moebelklar-lead-optimierung",
+    "imageSrc": "/images/michael-niessl-nuvaRAeaMdc-unsplash.jpg",
     "imageAlt": "Vertriebsmitarbeitende betrachten Leistungsmetriken auf einem Dashboard"
   },
   "whyUs": {
@@ -76,11 +77,6 @@
         "Uebernehmen Sie mehr als 10 Workflows fuer Vertrieb, Service und Operations.",
         "Bleiben Sie konform mit der Checkliste fuer GDPR und EU AI Act."
       ],
-      "previewIntro": "Bereit fuer den sofortigen Download?",
-      "previewLink": {
-        "label": "Zum Formular springen",
-        "href": "/resources/ebook"
-      },
       "primaryCta": {
         "label": "Gratis-E-Book erhalten",
         "href": "/resources/ebook/details"
@@ -105,8 +101,8 @@
       },
       {
         "kind": "video",
-        "title": "Guardrails fuer KI-Copiloten gestalten",
-        "videoId": "VIDEO_ID_1",
+        "title": "Die 4. Revolution: Mit KI zu mehr Umsatz (fuer KMU)",
+        "videoId": "WXZIrXrMArM",
         "meta": "Video"
       }
     ]
@@ -166,5 +162,4 @@
     ]
   }
 }
-
 
