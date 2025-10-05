@@ -45,34 +45,10 @@ const LEGAL_LINKS: Record<Locale, { label: string; href: string }[]> = {
   ]
 };
 
-const IconLinkedIn = (props: SVGProps<SVGSVGElement>) => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" {...props}>
-    <path d="M6.94 8.5v10.5M4 4.9a2.1 2.1 0 1 0 4.2 0 2.1 2.1 0 0 0-4.2 0Z" strokeWidth="1.6" />
-    <path d="M10.5 19V8.5h3.5l.1 1.6c.6-1 1.7-1.9 3.6-1.9 3 0 4.3 1.8 4.3 5.1V19" strokeWidth="1.6" />
-  </svg>
-);
-const IconX = (props: SVGProps<SVGSVGElement>) => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" {...props}>
-    <path d="M4 4l16 16M20 4L4 20" strokeWidth="1.6" />
-  </svg>
-);
-const IconInstagram = (props: SVGProps<SVGSVGElement>) => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" {...props}>
-    <rect x="3.5" y="3.5" width="17" height="17" rx="4.5" strokeWidth="1.6" />
-    <circle cx="12" cy="12" r="4.2" strokeWidth="1.6" />
-    <circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" />
-  </svg>
-);
 const IconYouTube = (props: SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" {...props}>
     <rect x="2.5" y="6.5" width="19" height="11" rx="3" strokeWidth="1.6" />
     <path d="M11 10v4l4-2-4-2Z" fill="currentColor" stroke="none" />
-  </svg>
-);
-const IconTikTok = (props: SVGProps<SVGSVGElement>) => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" {...props}>
-    <path d="M14 4v8.5a3.5 3.5 0 1 1-3.5-3.5" strokeWidth="1.6" />
-    <path d="M14 6c.7 1.9 2.6 3.2 4.7 3.2" strokeWidth="1.6" />
   </svg>
 );
 
@@ -156,20 +132,8 @@ export default function Footer({ locale = "en", onLocalePath }: FooterProps) {
 
           <div className="flex w-full items-center justify-end gap-4 text-neutral-800 md:w-auto">
             <span className="hidden text-xs font-semibold md:inline">{t.follow}</span>
-            <Link href="https://www.linkedin.com" aria-label="LinkedIn" className="p-2 hover:opacity-80">
-              <IconLinkedIn className="h-5 w-5" />
-            </Link>
-            <Link href="https://x.com" aria-label="X" className="p-2 hover:opacity-80">
-              <IconX className="h-5 w-5" />
-            </Link>
-            <Link href="https://instagram.com" aria-label="Instagram" className="p-2 hover:opacity-80">
-              <IconInstagram className="h-5 w-5" />
-            </Link>
-            <Link href="https://youtube.com" aria-label="YouTube" className="p-2 hover:opacity-80">
+            <Link href="https://www.youtube.com/@ObsidioAI" aria-label="YouTube" className="p-2 hover:opacity-80">
               <IconYouTube className="h-5 w-5" />
-            </Link>
-            <Link href="https://tiktok.com" aria-label="TikTok" className="p-2 hover:opacity-80">
-              <IconTikTok className="h-5 w-5" />
             </Link>
           </div>
         </div>
