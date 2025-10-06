@@ -15,11 +15,13 @@ const fieldClasses = [
 export default function ContactForm() {
   const [status, setStatus] = useState<'idle' | 'sending' | 'ok' | 'error'>('idle');
   const [errors, setErrors] = useState<Errors>({});
+  const [formError, setFormError] = useState<string | null>(null);
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus('sending');
     setErrors({});
+    setFormError(null);
 
     const fd = new FormData(e.currentTarget);
     const payload = {
@@ -32,11 +34,20 @@ export default function ContactForm() {
       consent: fd.get('consent') === 'on'
     };
 
-    const res = await fetch('/api/contact', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
-    });
+    let res: Response | null = null;
+
+    try {
+      res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+    } catch (err) {
+      console.error('Failed to reach contact API', err);
+      setFormError('Wir konnten den Server nicht erreichen. Bitte schreiben Sie uns direkt an obsidio@obsidioai.com.');
+      setStatus('error');
+      return;
+    }
 
     if (res.ok) {
       setStatus('ok');
@@ -45,7 +56,26 @@ export default function ContactForm() {
     }
 
     const data = await res.json().catch(() => ({}));
-    if (data?.errors) setErrors(data.errors as Errors);
+    let nextFormError: string | null = null;
+
+    if (data?.errors) {
+      const fieldErrors = data.errors as Errors;
+      setErrors(fieldErrors);
+      if (fieldErrors.form?.[0]) {
+        nextFormError = fieldErrors.form[0];
+      }
+    }
+
+    if (!nextFormError && data?.error && typeof data.error === 'string') {
+      nextFormError = data.error;
+    } else if (!nextFormError && !data?.errors) {
+      nextFormError = 'Etwas ist schiefgelaufen. Bitte prAfen Sie die markierten Felder oder schreiben Sie uns direkt.';
+    }
+
+    if (nextFormError) {
+      setFormError(nextFormError);
+    }
+
     setStatus('error');
   }
 
@@ -162,7 +192,7 @@ export default function ContactForm() {
       )}
       {status === 'error' && (
         <div className="mt-4 rounded-xl border border-danger/40 bg-bg1 p-4 text-base text-danger">
-          Etwas ist schiefgelaufen. Bitte korrigieren Sie die markierten Felder und versuchen Sie es erneut.
+          {formError || 'Etwas ist schiefgelaufen. Bitte prAfen Sie die markierten Felder und versuchen Sie es erneut.'}
         </div>
       )}
 
@@ -175,7 +205,7 @@ export default function ContactForm() {
         >
           {status === 'sending' ? 'Wird gesendet...' : 'Nachricht senden'}
         </button>
-        <a href="mailto:support@obsidioai.com" className="text-base font-semibold text-blue-700 hover:text-blue-800">
+        <a href="mailto:obsidio@obsidioai.com" className="text-base font-semibold text-blue-700 hover:text-blue-800">
           oder schreiben Sie uns direkt eine E-Mail
         </a>
       </div>

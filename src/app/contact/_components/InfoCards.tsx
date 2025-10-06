@@ -1,4 +1,4 @@
-﻿const cardBase = [
+const cardBase = [
   'flex flex-col gap-2.5',
   'rounded-2xl border border-border/60 bg-white p-4 sm:p-5',
   'shadow-[0_12px_24px_rgba(15,23,42,.08)] transition-transform duration-150',
@@ -23,9 +23,9 @@ export default function InfoCards() {
         <p className="text-sm text-muted">Wir antworten innerhalb eines Werktags.</p>
       </a>
 
-      <a href="tel:+43660582394" className={cardBase}>
+      <a href="tel:+436605823948" className={cardBase}>
         <span className="text-xs font-semibold uppercase tracking-wide text-primary">Rufen Sie uns an</span>
-        <div className="text-lg font-semibold text-text">+43 660 582394</div>
+        <div className="text-lg font-semibold text-text">+43 660 5823948</div>
       </a>
 
       <div className={cardBase}>
