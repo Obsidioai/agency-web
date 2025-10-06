@@ -3,8 +3,8 @@
 export const posts: BlogPost[] = [
   {
     id: 'b4',
-    title: 'Infografik: AI-Automation für KMUs',
-    excerpt: 'Infografik für KMUs in der DACH-Region zu Vorteilen, Workflows und Einsparungen mit KI-Automatisierung.',
+    title: 'Infografik: AI-Automation für KMU',
+    excerpt: 'Infografik für KMU in der DACH-Region zu Vorteilen, Workflows und Einsparungen mit KI-Automatisierung.',
     date: '2025-10-15',
     lang: 'de',
     url: '/blog/ai-automation-dach-guide',
@@ -33,7 +33,7 @@ export const posts: BlogPost[] = [
   },
   {
     id: 'b3',
-    title: 'DSGVO & KI: Die praktische Checkliste für KMUs',
+    title: 'DSGVO & KI: Die praktische Checkliste für KMU',
     excerpt: 'Infografik zur Datenbasis, KI-Implementierung und Risikomanagement für DSGVO-konforme KI-Projekte.',
     date: '2025-07-22',
     lang: 'de',

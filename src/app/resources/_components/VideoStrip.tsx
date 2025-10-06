@@ -1,6 +1,6 @@
 export default function VideoStrip() {
   const vids = [
-    { id: 'WXZIrXrMArM', title: "Die 4. Revolution: Mit KI zu mehr Umsatz (fuer KMU)" },
+    { id: 'WXZIrXrMArM', title: "Die 4. Revolution: Mit KI zu mehr Umsatz (für KMU)" },
     { id: 'VIDEO_ID_2', title: "AI Automation Starter Kit" },
     { id: 'VIDEO_ID_3', title: "SaaS MVP in 48h (LLM + low-code)" }
   ];

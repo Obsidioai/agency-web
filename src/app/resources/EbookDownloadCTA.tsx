@@ -78,7 +78,7 @@ export default function EbookDownloadCTA() {
                   Ihr kostenloses KI-E-Book
                 </h3>
                 <p className="mt-1">
-                  Laden Sie den Leitfaden herunter und erhalten Sie praxisnahe Tipps fuer die Einfuehrung von KI in Ihrem Unternehmen.
+                  Laden Sie den Leitfaden herunter und erhalten Sie praxisnahe Tipps für die Einführung von KI in Ihrem Unternehmen.
                 </p>
                 <p className="mt-2 text-xs text-neutral-500">
                   Datei: obsidio-ki-ebook.pdf
@@ -92,7 +92,7 @@ export default function EbookDownloadCTA() {
                 className="rounded-lg border border-neutral-200 px-4 py-2 text-sm font-semibold text-neutral-700 transition hover:bg-neutral-50"
                 onClick={() => setIsOpen(false)}
               >
-                Schliessen
+                Schließen
               </button>
               <a
                 href={DOWNLOAD_PATH}

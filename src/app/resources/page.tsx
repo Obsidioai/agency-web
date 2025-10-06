@@ -102,7 +102,7 @@ export default function ResourcesPage() {
                 <iframe
                   className="h-full w-full"
                   src="https://www.youtube.com/embed/WXZIrXrMArM"
-                  title="Die 4. Revolution: Mit KI zu mehr Umsatz (fuer KMU)"
+                  title="Die 4. Revolution: Mit KI zu mehr Umsatz (für KMU)"
                   loading="lazy"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"
@@ -110,13 +110,13 @@ export default function ResourcesPage() {
                 />
               </div>
               <span className="absolute bottom-3 left-4 rounded-md bg-black/70 px-2 py-1 text-xs font-semibold text-white">
-                Die 4. Revolution: Mit KI zu mehr Umsatz (fuer KMU)
+                Die 4. Revolution: Mit KI zu mehr Umsatz (für KMU)
               </span>
             </div>
 
             <div className="space-y-4">
               <ArticleCard
-                title="Infografik: Von Excel zu Insight mit KI"
+                title="Infografik: Von Excel zu Insights mit KI"
                 excerpt="Visuelle Anleitung, wie KI aus Excel-Daten automatisiert Insights, Prognosen und Alarme für Ihr KMU erzeugt."
                 href="/blog/from-excel-to-insight"
               />

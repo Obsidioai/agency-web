@@ -24,7 +24,7 @@ const NAV_ITEMS: Record<Locale, { label: string; href: string }[]> = {
     { label: "Ressourcen", href: "/resources" },
     { label: "Fallstudien", href: "/case-studies" },
     { label: "Dienstleistungen", href: "/services" },
-    { label: "Ueber obsidio", href: "/about" },
+    { label: "Über obsidio", href: "/about" },
     { label: "Blog", href: "/blog" },
     { label: "Kontakt", href: "/contact" }
   ]

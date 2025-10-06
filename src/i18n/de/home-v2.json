@@ -1,81 +1,81 @@
 {
   "meta": {
-    "title": "obsidio | KI-Dienste fuer operative Teams",
+    "title": "obsidio | KI-Dienste für operative Teams",
     "description": "Ihr Partner, um Automatisierungen ganzheitlich zu entdecken, zu entwerfen und in Ihren bestehenden Stacks auszurollen."
   },
   "servicesHero": {
-    "eyebrow": "KI-Transformation ohne Ratespiel",
+    "eyebrow": "KI-Transformation ohne Rätselraten",
     "title": "Operative KI aus Wien, die wirklich liefert",
-    "subtitle": "Gemeinsam Automationen, Chatbots, Dashboards und Lead-Systeme bauen. Kleine, sichere Releases. EU-Hosting, DSGVO-bewusst. Messbare Ergebnisse f\u00fcr DACH-KMU.",
+    "subtitle": "Wir bauen gemeinsam Automationen, Chatbots, Dashboards und Lead-Systeme. Kleine, sichere Releases. EU-Hosting, DSGVO-bewusst. Messbare Ergebnisse für DACH-KMU.",
     "bgSrc": "/images/michael-niessl-nuvaRAeaMdc-unsplash.jpg",
     "bgAlt": "Nachtpanorama der Wiener Skyline mit beleuchteten Hochhaeusern"
   },
   "servicesIcons": {
     "title": "Wo wir Hebel schaffen",
-    "subtitle": "Von der Entdeckung bis zum Rollout decken wir den gesamten Lebenszyklus ab",
+    "subtitle": "Von der Entdeckung bis zum Rollout decken wir den gesamten Lebenszyklus ab.",
     "items": [
       {
         "title": "SaaS-Entwicklung & Implementierung",
-        "desc": "Leichtgewichtige, passgenaue Tools - nahtlos integriert in Ihre bestehende Umgebung (Microsoft 365, Google Workspace, HubSpot, Shopify) inkl. sauberer Uebergabe und Dokumentation.",
+        "desc": "Leichtgewichtige, passgenaue Tools, nahtlos in Ihre bestehende Umgebung integriert (Microsoft 365, Google Workspace, HubSpot, Shopify), inklusive sauberer Übergabe und Dokumentation.",
         "icon": "saas"
       },
       {
-        "title": "KI-Beratung fuer KMU",
-        "desc": "Herstellerneutrale Einschaetzung, klare ROI-Prioritaeten und ein umsetzbarer 90-Tage-Fahrplan - ohne Hype, mit konkreten naechsten Schritten.",
+        "title": "KI-Beratung für KMU",
+        "desc": "Herstellerneutrale Einschätzung, klare ROI-Prioritäten und ein umsetzbarer 90-Tage-Fahrplan – ohne Hype, mit konkreten nächsten Schritten.",
         "icon": "ops"
       },
       {
         "title": "Automatisierung & Workflow-Design",
-        "desc": "Wir ersetzen repetitive Aufgaben durch robuste Automationen (n8n/Make/Zapier + Code) mit Protokollen, Retries und Benachrichtigungen.",
+        "desc": "Wir ersetzen repetitive Aufgaben durch robuste Automatisierungen (n8n/Make/Zapier + Code) mit Protokollen, Retries und Benachrichtigungen.",
         "icon": "automation"
       },
       {
         "title": "Virtueller Helpdesk & Chatbots",
-        "desc": "Natuerlich klingende Assistenten fuer Support, FAQs und Lead-Erfassung - angebunden an Ihre Daten, DSGVO-bewusst und auswertbar.",
+        "desc": "Natürlich klingende Assistenten für Support, FAQs und Lead-Erfassung – angebunden an Ihre Daten, DSGVO-bewusst und auswertbar.",
         "icon": "lead"
       },
       {
         "title": "KI-Potenzialanalyse vor Ort",
-        "desc": "Ein Tag in Ihrem Betrieb: reale Ablaeufe aufnehmen, Chancen identifizieren, priorisierte Roadmap erstellen - mit positionenweiser Preisuebersicht pro Loesung.",
+        "desc": "Ein Tag in Ihrem Betrieb: reale Abläufe aufnehmen, Chancen identifizieren, eine priorisierte Roadmap erstellen – mit positionenweiser Preisübersicht pro Lösung.",
         "icon": "roi"
       },
       {
         "title": "Branchen-Dashboards & Lead-Systeme",
-        "desc": "Individuelle Dashboards und Lead-Prozesse fuer z. B. Immobilien- und Versicherungsbetriebe: einheitliche KPIs, smartes Scoring und automatisierte Folgeaktionen.",
+        "desc": "Individuelle Dashboards und Lead-Prozesse, etwa für Immobilien- und Versicherungsbetriebe: einheitliche KPIs, smartes Scoring und automatisierte Folgeaktionen.",
         "icon": "branding"
       }
     ]
   },
   "caseStudy": {
     "sectionTitle": "Referenzprojekt",
-    "eyebrow": "E-Commerce (Moebelhandel)",
-    "title": "400% hoehere Conversion-Rate mit KI-gestuetztem Lead-Scoring",
-    "problem": "Das Vertriebsteam der MoebelKlar GmbH verlor 80% seiner Zeit an unverbindliche Leads, weil Excel-Listen manuell abgearbeitet wurden.",
-    "solution": "Bereinigte 12 Monate Lead-Historie, fuehrte Echtzeit-Scoring ueber 15 Signale ein und versorgte nur Leads mit Score ueber 80 mit personalisierten Vertriebs-Playbooks.",
-    "result": "Conversion-Rate stieg von 2,5% auf 10%, qualifizierte Leads +300% und 7 Minuten Zeitersparnis pro Lead.",
-    "ctaLabel": "Zum MoebelKlar Playbook",
+    "eyebrow": "E-Commerce (Möbelhandel)",
+    "title": "400 % höhere Conversion-Rate mit KI-gestütztem Lead-Scoring",
+    "problem": "Das Vertriebsteam der MöbelKlar GmbH verlor 80 % seiner Zeit an unverbindliche Leads, weil Excel-Listen manuell abgearbeitet wurden.",
+    "solution": "Wir bereinigten 12 Monate Lead-Historie, führten Echtzeit-Scoring auf 15 Signalen ein und versorgten nur Leads mit Score über 80 mit personalisierten Vertriebs-Playbooks.",
+    "result": "Die Conversion-Rate stieg von 2,5 % auf 10 %, qualifizierte Leads legten um 300 % zu und jede Anfrage sparte sieben Minuten Vertriebszeit.",
+    "ctaLabel": "Zum MöbelKlar-Playbook",
     "ctaHref": "/case-studies/moebelklar-lead-optimierung",
     "imageSrc": "/images/michael-niessl-nuvaRAeaMdc-unsplash.jpg",
-    "imageAlt": "Vertriebsteam der MoebelKlar GmbH betrachtet Leistungsmetriken auf einem Dashboard"
+    "imageAlt": "Vertriebsteam der MöbelKlar GmbH betrachtet Leistungsmetriken auf einem Dashboard"
   },
   "whyUs": {
-    "title": "Warum Teams obsidio waehlen",
+    "title": "Warum Teams obsidio wählen",
     "items": [
-      "Fachteams gestalten jede Iteration gemeinsam mit Solution Architects.",
-      "Governance integriert: Audit-Trails, Schutzrahmen und menschliche Eingriffe.",
-      "Senior Builder mit Erfahrung aus Enterprise und Startups.",
-      "Onboarding-Playbooks, die nicht-technische Teams schnell produktiv machen."
+      "Fachteams gestalten jede Iteration gemeinsam mit unseren Solution Architects.",
+      "Governance inklusive: Audit-Trails, Schutzrahmen und menschliche Eingriffe sind klar definiert.",
+      "Senior Builder mit Erfahrung aus Enterprise- und Startup-Projekten.",
+      "Onboarding-Playbooks, die nichttechnische Teams schnell produktiv machen."
     ]
   },
   "resources": {
     "left": {
       "date": "Neu in Q4 2025",
       "title": "AI for Business Owners (Einsteiger-Guide)",
-      "desc": "Praktischer Schritt-fuer-Schritt-Plan, um KI schnell, sicher und DSGVO-konform einzufuehren.",
+      "desc": "Praktischer Schritt-für-Schritt-Plan, um KI schnell, sicher und DSGVO-konform einzuführen.",
       "bullets": [
         "Identifizieren Sie passende Use Cases in unter einer Stunde.",
-        "Uebernehmen Sie 10+ Workflows fuer Vertrieb, Service und Operations.",
-        "Bleiben Sie konform mit DSGVO- und EU-AI-Act-Checkliste."
+        "Übernehmen Sie mehr als zehn Workflows für Vertrieb, Service und Operations.",
+        "Bleiben Sie konform mit der Checkliste für die DSGVO und den EU AI Act."
       ],
       "primaryCta": {
         "label": "E-Book holen",
@@ -87,7 +87,7 @@
     "right": [
       {
         "kind": "post",
-        "title": "Infografik: KI-Automatisierung fuer KMUs",
+        "title": "Infografik: KI-Automatisierung für KMU",
         "href": "/blog/ai-automation-dach-guide",
         "meta": "Blog - 15. Okt 2025"
       },
@@ -99,15 +99,15 @@
       },
       {
         "kind": "video",
-        "title": "Die 4. Revolution: Mit KI zu mehr Umsatz (fuer KMU)",
+        "title": "Die 4. Revolution: Mit KI zu mehr Umsatz (für KMU)",
         "videoId": "WXZIrXrMArM",
         "meta": "Video"
       }
     ]
   },
   "stacks": {
-    "title": "Unterstuetzte Stacks",
-    "subtitle": "Integrationen, Automationen und Dashboards, mit denen wir taeglich arbeiten",
+    "title": "Unterstützte Stacks",
+    "subtitle": "Integrationen, Automatisierungen und Dashboards, mit denen wir täglich arbeiten",
     "items": [
       {
         "name": "OpenAI",
@@ -160,4 +160,3 @@
     ]
   }
 }
-
